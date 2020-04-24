@@ -1,0 +1,426 @@
+
+/*---------------------------------------------Layout-----------------------------------------------*/
+body
+{
+    background-image: url("../resources/sand.jpg");
+   /*background-color: azure;*/
+   background-size: 100%;
+   background-repeat:repeat;
+   
+}
+
+/*img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+@media (max-width: 480px) {
+  img {
+    background-image: url("../resources/sand.jpg");
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+}
+@media (min-width: 481px) {
+  img {
+    background-image: url("../resources/sand.jpg");
+    background-repeat: no-repeat;
+    background-size: contain ;
+  }
+}*/
+
+ul 
+{
+    list-style-type: none;/*no bullets*/
+    margin: 0;
+    padding: 0 60px 0 0;
+    overflow: hidden;
+    /*background-color:#90b6ff;*/
+}
+
+.head1 li
+{
+    float: left;
+}
+
+.head1 li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 60px 0px 0px;
+    text-decoration: none;/*no underline*/
+    line-height: 1.8;
+   font-size:38px;
+   font-weight: bold;
+  /* background-color: blue;*/
+}
+
+.head1 li a
+{
+    border-right: 4px solid white;
+}
+i,sup
+{
+    color: #03ec13;
+}
+
+.head1 li a:hover 
+{
+    color: white;
+    text-decoration: none;
+     text-shadow: 4px 4px 4px white;
+     font-size: 39px;
+}
+
+.tabs li
+{
+    float: right;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.tabs li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    line-height: 1.8;
+    font-size:20px; 
+    font-weight: bold;
+ }
+
+.tabs li a:hover 
+{
+    background-color: #333333;
+    text-decoration: none;
+    font-size:22px;
+    border-radius: 10px;
+}
+
+.tabs .logoutcolor
+{
+    /*background-color: #ff1a1a;*/
+    color: #ff1a1a;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tabs .logoutcolor:hover
+{
+    background-color:#28415F !important; 
+    text-decoration: none;
+    font-size:22px;
+    border: 1px solid orangered;
+    color: orangered;
+    border-radius: 10px;
+}
+
+.tabs .logincolor 
+{
+    /*background-color: forestgreen;*/
+    color: #00cc00;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tabs .logincolor:hover
+{
+    background-color:#28415F !important; 
+    text-decoration: none;
+    font-size:22px;
+    border: 1px solid #00cc00;
+    color: #00cc00;
+    border-radius: 6px;
+}
+
+.active
+{
+    font-weight: bold;
+    font-size: 20px !important;
+    border-bottom: 3px solid white;
+    padding-bottom: 2px;
+}
+
+/*-------------------------------Fill the Form-----------------------------*/
+
+.star
+{
+    color: red;
+}
+#form
+{
+    /*margin: 50px 340px 20px 350px;*/
+    /*padding:30px 80px 10px 80px;*/
+    margin-top: 50px;
+    text-align: center;
+    background-color: transparent;
+    font-family: verdana;
+    color: black;
+    /*border:1px solid black;*/
+}
+
+#form table
+{
+    margin-top:20px; 
+}
+#form table td
+{
+    padding:0px 12px 12px 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#form input[type='text'],#form select
+{
+    height: 35px;
+    width: 270px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+#form input[type='text']:hover,#form select:hover
+{
+    border: 1px blue solid;
+    background-color: azure; 
+    border-radius: 3px;
+} 
+#form input[type='text']:focus,#form select:focus
+{
+    border: 1px solid #07c;
+    box-shadow: 0 0 10px #07c;
+    background-color: azure;
+}
+
+input[type="submit"]
+{
+    padding: 8px 10px 8px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#ff226e ;
+    background-color:transparent;
+    border: 1px solid #ff226e;
+    border-radius: 5px;
+}
+input[type="submit"]:hover
+{
+    color: white;
+    background-color:#ff226e ;
+    border: 1px solid #ff226e;
+}
+
+/*--------------------------ReportLogin----------------------------------*/
+
+.lheading
+{
+    text-align: center;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 33px;
+    padding: 15px;
+    border:1px solid white;
+
+} 
+
+.star
+{
+    color: red;
+}
+#loginform
+{
+    /*margin: 100px 340px 20px 350px;
+    padding:50px 70px 10px 50px;*/ 
+    margin-top: 100px;
+    background-color: transparent;
+    font-family: verdana;
+    color: black;
+    /*border:1px solid black;*/
+}
+
+#loginform table
+{
+    margin-top: 40px;
+}
+
+#loginform table tr td
+{
+    padding-bottom: 30px;
+}
+#loginform table td
+{
+    padding:0px 12px 12px 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#loginform input[type='text'],#loginform input[type='password']
+{
+    height: 40px;
+    width: 340px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+#loginform input[type='text']:hover,#loginform input[type='password']:hover
+{
+    border: 1px blue solid;
+    background-color: azure; 
+    border-radius: 3px;
+} 
+#loginform input[type='text']:focus,#loginform input[type='password']:focus
+{
+    border: 1px solid #07c;
+    box-shadow: 0 0 10px #07c;
+    background-color: azure;
+}
+
+input[type="submit"]
+{
+    padding: 8px 10px 8px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white ;
+    background-color:dodgerblue;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+
+
+/*---------------------------------------reports----------------------------------------*/
+
+
+.instruction
+{
+    text-align: center;
+    font-size: 30px;
+    color:#990000;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+.reportabs
+{
+    margin: 40px 40px 20px 40px;
+}
+
+.reportabs ul 
+{
+    list-style-type: none;/*no bullets*/
+    margin: 0;
+    padding: 0 10px 0 0;
+    overflow: hidden;
+
+}
+
+.reportabs li
+{
+    float: left;
+    /*padding-left: 95px;*/
+}
+
+.reportabs li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 94px 10px 94px;
+    text-decoration: none;
+    border: 1px solid white;
+    line-height: 1.8;
+    font-size:25px;
+    border-radius: 5px;
+    background-color: #4d79ff;
+ }
+
+.reportabs li a:hover 
+{
+    text-decoration: none;
+    font-size:25px;
+    background-color: #ff226e;
+}
+
+.reportabs .active1
+{
+ background-color:#900000;
+}
+
+/*----------------------------------------------------datereport------------------------*/
+.datereport
+{
+    margin: 40px 100px 10px 400px;
+}
+.datereport form table tr td
+{
+    color: black;
+    font-size: 20px;
+}
+
+.datereport table td
+{
+    padding:0px 12px 12px 12px;
+    font-size: 25px;
+}
+
+.table-responsive
+{
+    max-height: 410px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right:20px; 
+}
+.table-responsive table
+{
+    width: 100%;
+    border: 2px solid black;
+}
+
+.table-responsive table th
+{
+    border: 1px solid  #000066;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #1a8cff;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+
+    /*position: relative;*/
+    top: 0px;
+    position: sticky;
+
+}
+
+.table-responsive table td
+{
+    border: 1px solid  #000066;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color:#cce6ff;
+}
+.table-responsive table th a
+{
+    text-decoration: none;
+    color: white;
+}
+.table-responsive h3
+{
+    text-align: center;
+    background-color:#900000;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin: 0px 450px 10px 450px;
+}
+

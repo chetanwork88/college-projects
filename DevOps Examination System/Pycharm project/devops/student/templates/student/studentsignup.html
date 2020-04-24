@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+
+{%  block title %}
+    <title>Student-Signup-DevOps</title>
+{% endblock %}
+
+
+
+
+{% block body %}
+<div class="form_heading">
+    <h2>Student Signup</h2>
+</div>
+<div class="form">
+<form method="post">
+    {% csrf_token %}
+    <br>
+    <label>First Name:</label><br>
+    <input type="text" class="form-control" name="ssfname" required><br>
+
+    <label>Last Name:</label><br>
+    <input type="text" class="form-control" name="sslname" required><br>
+
+    <label>Student Email:</label><br>
+    <input type="email" class="form-control" name="ssemail" required><br>
+
+    <label>Password:</label><br>
+    <input type="password" class="form-control" name="sspassword" required><br>
+
+    <label>Confirm Password:</label><br>
+    <input type="password" class="form-control" name="sscnfpassword" required><br>
+
+    <label> Contact Number:</label><br>
+    <input type="text" class="form-control" name="spnum1" required><br>
+    <input type="submit" class="btn btn-primary btn-md center-block " value="Signup" name="sssignup"><br>
+    <h4>already user? <a href="">click here </a> to apply</h4>
+
+</form>
+</div>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+
+{%  block title %}
+    <title>Organization-Login-DevOps</title>
+{% endblock %}
+
+
+
+
+{% block body %}
+
+<div class="form_heading">
+    <h2>Organization Login</h2>
+</div>
+<div class="form">
+<form method="post">
+    {% csrf_token %}
+    <br>
+    <label>Organization Email:</label><br>
+    <input type="email" class="form-control" name="lcemail" required><br>
+    <label>Password:</label><br>
+    <input type="password" class="form-control" name="lpassword" required><br>
+    <input type="submit" class="btn btn-primary btn-md center-block " value="Create Test" name="lcreate_test"><br>
+    <h4>new here? <a href="">click here </a> to join us </h4>
+</form>
+</div>
+
+
+
+{% endblock %}

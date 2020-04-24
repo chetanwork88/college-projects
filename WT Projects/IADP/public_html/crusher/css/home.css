@@ -1,0 +1,191 @@
+/*---------------------------------Layout---------------------*/
+/*body
+{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}*/
+.navbar-header
+{
+    background-color:#002966;
+    border-right:3px solid white ;
+}
+
+.navbar-brand,#mainNavBar ul li a
+{
+    color:white;
+    font-size:24px;
+}
+
+
+.navbar-brand:hover
+{
+    color:white;
+}
+
+#mainNavBar ul li a
+{
+    font-size:25px;
+    margin: 0px 20px 0px 20px;
+}
+
+#mainNavBar ul li a:hover
+{
+     background-color:#668cff;
+}
+
+.navbar-toggle, .icon-bar 
+{
+    border:1px solid white;
+}
+
+.active
+{
+    background-color:#668cff;
+}
+
+.userinfo,.userinfo a
+{
+    float: right;
+    background-color: #428bca;
+    color: white;
+    font-size: 20px;
+    padding: 3px 10px 3px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------fillform.php----------------------------*/
+
+.fillform
+{
+    margin-top:60px;
+} 
+
+/*.fillform form
+{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}*/
+.fillform h1
+{
+background-color:#428bca;
+padding:10px 20px 10px 20px;
+color:white;
+}
+
+.fillform input[type="submit"],.fillform input[type="reset"]
+{
+    font-size:18px;
+}
+.fillform label
+{
+   font-size:18px; 
+}
+
+.fillform input[type='text'],.fillform select,.fillform input[type='time']
+{
+    color:black;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.fillform input[type='text']:hover,.fillform select:hover,.fillform input[type='time']:hover,.fillform input[type='radio']:hover
+{
+    border: 1px blue solid;
+    background-color: azure; 
+    border-radius: 3px;
+} 
+
+.fillform input[type='text']:focus,.fillform select:focus,.fillform input[type='time']:focus,.fillform input[type='radio']:focus
+{
+    border: 1px solid #07c;
+    box-shadow: 0 0 10px #07c;
+    background-color: azure;
+}
+
+/*-------------------------------------------report.php---------------------*/
+.row
+{
+    margin:70px 20px 20px 20px;
+}
+.row #reportbtn
+{
+    font-size:30px;
+    border:1px solid black;
+    text-align:center;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    text-decoration:none;
+    
+}
+.row #reportbtn:hover
+{
+    background-color:#668cff;
+    text-decoration:none;
+}
+
+/*----------------------------------------------datereport.php-------------------------*/
+.reportinput label
+{
+   font-size:18px;
+}
+
+.table-responsive
+{
+    max-height: 410px;
+    margin-top: 30px;
+    overflow: scroll;
+}
+.table-responsive table
+{
+    margin-top:10px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.table-responsive table tr :hover
+{
+    background-color:#66b3ff; 
+    
+}
+.table-responsive table th
+{
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #428bca;
+    color: white;
+    overflow: hidden;
+    
+    /*position: relative;*/
+    top: 0px;
+    position: sticky;
+    border: 1px solid  #000066;
+
+}
+
+.table-responsive table td
+{
+    border: 1px solid  #000066 !important;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color:#cce6ff;
+}
+.table-responsive table th a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.table-responsive h3
+{
+    text-align: center;
+}
+
+
+/*---------------------------------footer---------------------*/
+footer pre
+{
+    margin-top:50px;
+}

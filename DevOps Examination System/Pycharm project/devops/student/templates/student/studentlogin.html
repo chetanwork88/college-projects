@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+
+{%  block title %}
+    <title>Student-Login-DevOps</title>
+{% endblock %}
+
+
+
+
+{% block body %}
+
+<div class="form_heading">
+    <h2>Student Login</h2>
+</div>
+<div class="form">
+<form method="post">
+    {% csrf_token %}
+    <br>
+    <label>Student Email:</label><br>
+    <input type="email" class="form-control" name="lsemail" required><br>
+    <label>Password:</label><br>
+    <input type="password" class="form-control" name="lspassword" required><br>
+    <input type="submit" class="btn btn-primary btn-md center-block " value="Login" name="lslogin"><br>
+    <h4>new here? <a href="">click here </a> to join us </h4>
+</form>
+</div>
+
+
+
+{% endblock %}

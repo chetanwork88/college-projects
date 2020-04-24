@@ -1,0 +1,1 @@
+[16-Oct-2018 11:13:28 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/iadpindia/public_html/personality/login.php on line 14

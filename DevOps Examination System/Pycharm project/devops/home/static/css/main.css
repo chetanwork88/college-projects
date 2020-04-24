@@ -1,0 +1,82 @@
+
+.navbar-brand , .nav li a
+{
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 17px;
+}
+.navbar-brand
+{
+    font-size: 25px;
+}
+
+.navbar-brand:hover
+{
+    color: white;
+    font-size: 27px;
+}
+
+.nav li a:hover
+{
+    background-color: #005c99;
+    color: white;
+    font-size: 19px;
+}
+
+.form_heading
+{
+    margin: 0 auto;
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 50px;
+    background-color:  #007acc;
+    /*bg-primary=#007acc*/
+}
+.form_heading h2
+{
+    color: white;
+    text-align: center;
+}
+
+.form
+{
+    margin: 0 auto;
+    width: 35%;
+    background-color: ghostwhite;
+}
+
+.form label,.form input[type='submit']
+{
+    font-size: 17px;
+}
+.form h4
+{
+    text-align: center;
+}
+
+.test
+{
+    margin-top: 30px;
+}
+
+.terminal iframe
+{
+    float: left;
+    width: 60%;
+    height: 500px;
+}
+.que_section
+{
+    padding: 10px;
+    float: right;
+    width: 35%;
+    border: 1px solid black;
+}
+.que_section h4
+{
+    font-size: 16px;
+    font-weight: bolder;
+}
+

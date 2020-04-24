@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!-- font-awesome-icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Bootstrap icons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<!-- Google Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+
+</head>
+<body>
+	<div class="container-fluid">
+
+<!--Navbar-->
+	<ul>
+		<div class="head">
+		<li><a href="index.html" target="_top"><img class="bgimg" src="/resources/logo1.jpeg"></a></li>
+		<li><a href="index.html" target="_top">PERSONALITY CHECK<sup>&#8482;</sup></a></li>
+		</div>
+
+		<!--Collapsive button-->
+
+		<div class="tabs">
+		<li><a href="Signin.html" target="_top"><i class="glyphicon glyphicon-user"></i> <span class="logincolor">SIGNIN</span></a></li>
+		<li><a href="Article.html" target="_top"><i class="glyphicon glyphicon-book"></i> <span class="signupcolor">ARTICLES</span></a></li>
+		<li><a href="About.html" target="_top"><i class="glyphicon glyphicon-info-sign"></i> ABOUT US</a></li>
+		<li><a href="PerTypes.html" target="_top"><i class="glyphicon glyphicon-dashboard"></i> PERSONALITY TYPES</a></li>
+		<li><a href="TestArea.html" target="_top"><i class="glyphicon glyphicon-list-alt"></i> TEST AREA</a></li>	
+  		<li><a class="active" href="index.html" target="_top"><i class="glyphicon glyphicon-home"></i> HOME</a></li>	
+ 		</div>
+	</ul>
+
+	<!--*************************The content****************  -->
+
+<!-- not New here login here and if new then direct to signin page to signin and then login -->
+
+
+	<div class="home">
+		<div class="homeimage">
+			<img src="resources/homeimage.png">
+			<h1>“It’s so incredible to finally be understood.”</h1>
+
+			<h3>Take our Personality Test and get a 'freakishly accurate' description of who you are and why you do things the way you do.</h3>
+
+			<p>***Free. No registration required.***</p>
+
+			<div id="taketestbtn">
+			<button type="button" name="goback" onclick="location.href='TestArea.html'">
+			 Take The Test</button>
+			 <h3>or Login here</h3>
+			</div>
+		</div>
+		
+
+		<div class="lform">
+			<form action="login.php" method="post">
+				<table class="ltable">
+					<tr>
+						<td>Email</td>
+						<td>:</td>
+						<td><input type="text" name="lemail" class="form-control" placeholder="Enter Your Email." size="40"></td>
+					</tr>
+
+					<tr>
+						<td>Password</td>
+						<td>:</td>
+						<td><input type="password" class="form-control" name="lpwd" size="40" placeholder="Enter the Password. "></td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td></td>
+						<td><input type="submit" name="login" value="Log In"><span class="txt"> or <a href="Signin.html">Click here </a>to signup</span>
+						</td>
+					</tr>
+
+				</table>
+			</form>
+		</div>	
+	</div>
+
+
+	<!-- COntent writing -->
+<div class="homecontents">
+	<div class="headimage">
+		<img src="/resources/headimg.png" alt="headimage">
+	</div>
+
+	<div id="headtext">
+		Why are some people happier, more confident, and more successful than others? What do they know that you don’t?
+	</div>
+
+	<div id="headtext2">
+		When it comes to success, nothing is more important and influential than self-confidence and belief in oneself. In fact, if we want to be successful, self-belief is more important than intelligence, talent, background, or just about anything else. In addition to this, people who have self-confidence and believe in themselves are healthier, happier, have better relationships, and are more motivated and resilient.<br><br>
+
+There are many factors that affect our self-confidence, including our parents, our upbringing, our environment, our beliefs, past failures and successes, society, how other people treat us, the media, and our experiences at large. Research suggests that the beliefs individuals hold about their abilities powerfully influence the ways in which they behave and achieve (see Bandura, 1977, Parajes, 1996, p. 543). Interestingly enough, a lack of self-confidence is not directly related to a lack of talent, skill or ability. It is more related to our perception.<br><br>
+
+So what does it mean to believe in oneself and possess self-confidence? Loosely defined, it is the feeling of confidence in our judgment, abilities, and qualities. It is sometimes referred to as self-efficacy. This, in turn, affects almost every area of our lives, including how we think, feel and act. This is why it is so important.
+<br><br>
+
+
+	</div>
+</div>
+	
+
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,241 @@
+/*--------------------------------------layout-----------------------------*/
+body
+{
+    margin:5px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
+.navbar
+{
+    background-color:#28415F;
+    border:none;
+}
+
+.navbar-header
+{
+  border-right:5px solid white;
+  padding-right:10px;
+}
+.navbar-brand
+{
+   font-size:40px;
+   color:white;
+   padding:20px;
+}
+.navbar-brand:hover
+{
+    color:white;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px white;
+}
+
+.navbar img
+{
+    width:60px;
+}
+
+#mainNavBar ul li a
+{
+    font-size:18px;
+    color:white;
+    margin-left:10px;
+}
+
+#mainNavBar ul li a:hover
+{
+   font-size: 20px !important; 
+   background-color:#1e3148;
+}
+
+#mainNavBar li .logoutcolor
+{
+    color: #ff1a1a;
+}
+
+#mainNavBar li .logincolor 
+{
+    color: #00cc00;
+}
+
+.active
+{
+    font-weight: bold;
+    font-size: 22px !important;
+    background-color:#0f1824;
+}
+
+i,sup
+{
+    color: #32ff7e;
+}
+
+.navbar-toggle, .icon-bar 
+{
+    border:1px solid white;
+}
+
+.userinfo,.userinfo a
+{
+    float: right;
+    background-color: #428bca;
+    color: white;
+    font-size: 20px;
+    padding: 3px 10px 3px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+
+/*-------------------------------------Apply.php-----------------------------------------*/
+
+/*.optionbar
+{
+    margin-top:70px;
+}
+
+.optionbar .navbar
+{
+    background-color:#f2f2f2;
+}
+
+.optionbar .navbar-toggle,.optionbar .icon-bar
+{
+    border:1px solid black;
+}
+
+.optionbar .navbar-header .navbar-brand
+{
+    color:black;
+    font-size:20px;
+    background-color:#b3d9ff;
+    text-decoration:none !important;
+    border:none;
+}
+#mainNavBar1 ul li a
+{
+    color:black;
+    font-size:18px;
+}
+
+#mainNavBar1 ul li a:hover
+{
+    background-color:#99ccff;
+}
+
+#mainNavBar1 ul li .active
+{
+    background-color:#3399ff;
+    font-size:16px;
+    font-weight:normal;
+}*/
+
+.sidebar {
+  margin:0;
+  padding: 0;
+  padding-top: 70px;
+  width: 270px;
+  height:100%;
+  /*background-color: #f1f1f1;*/
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  position: fixed;
+  overflow: auto;
+  
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding:15px;
+  text-decoration: none;
+  font-size:20px;
+}
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-right: 3px solid white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin: 0px 5px 5px 300px;
+ 
+}
+
+@media screen and (max-width: 700px) 
+{
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a 
+  {
+      float: left;
+      
+  }
+  div.content 
+  {
+      margin-left: 0;
+      
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.content h2,p
+{
+    text-align:center;
+    font-weight:bolder;
+}
+.content form label
+{
+    font-size:18px;
+    color:black;
+}
+
+.star
+{
+    color: red;
+}
+
+.content input[type="text"]:hover,.content textarea:hover
+{
+    background-color:#e6ffe6;
+    border:1px solid black;
+}
+
+.content input:focus
+{
+    color:black;
+}
+
+
+/*---------------------------------------About.php------------------------------------------*/
+
+.jumbotron
+{
+    margin-top:70px;
+    padding:10px;
+}
+
+.jumbotron h1
+{
+    text-align:center;
+}
+
+.jumbotron p
+{
+    text-align:justify; 
+}
+
+

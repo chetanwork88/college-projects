@@ -1,0 +1,807 @@
+
+/*---------------------------------------------Layout---------------------------------------*/
+
+body
+{
+   /* background-image: url("../resources/farmer3.jpg");*/
+    /*background-color: #b3c6ff;*/
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    /*background-size: 100%;*/ 
+    padding-top: 20px;
+}
+
+ul 
+{
+    list-style-type: none;/*no bullets*/
+    margin: 0;
+    padding: 0 10px 0 0;
+    overflow: hidden;
+    background-color: #28415F;
+
+}
+
+.head li,.head1 li
+{
+    float: left;
+}
+
+.head li a,.head1 li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 30px 0px 0px;
+    text-decoration: none;/*no underline*/
+    line-height: 1.8;
+   font-size:38px;
+  /* background-color: blue;*/
+}
+
+.head1 li a
+{
+    border-right: 4px solid white;
+}
+i,sup
+{
+    color: #32ff7e;
+}
+
+.head li a:hover,.head1 li a:hover 
+{
+    color: white;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px white;
+    font-size: 39px;
+}
+
+.tabs li
+{
+    float: right;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.tabs li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    line-height: 1.8;
+    font-size:17px; 
+ }
+
+.tabs li a:hover 
+{
+    background-color:black;
+    text-decoration: none;
+    font-size:20px;
+    border-radius: 10px;
+}
+
+.tabs .logoutcolor
+{
+    /*background-color: #ff1a1a;*/
+    color: #ff1a1a;
+    border-radius: 6px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.tabs .logoutcolor:hover
+{
+    background-color:#28415F !important; 
+    text-decoration: none;
+    font-size:20px;
+    border: 1px solid orangered;
+    color: orangered;
+    border-radius: 10px;
+}
+
+.tabs .logincolor 
+{
+    /*background-color: forestgreen;*/
+    color: #00cc00;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.tabs .logincolor:hover
+{
+    background-color:#28415F !important; 
+    text-decoration: none;
+    font-size:20px;
+    border: 1px solid #00cc00;
+    color: #00cc00;
+    border-radius: 6px;
+}
+
+.active
+{
+    font-weight: bold;
+    font-size: 20px !important;
+    border-bottom: 3px solid white;
+    padding-bottom: 2px;
+}
+
+.userinfo,.userinfo a
+{
+    float: right;
+    background-color: #28415F;
+    color: white;
+    font-size: 23px;
+    margin: 1px 0px 2px 0px;
+    padding: 3px 10px 3px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/*-------------------------------------Home-------------------------------------------------*/
+
+.hometop
+{
+    padding-top: 47px;
+}
+.bgimg
+{
+    float: left;
+    border: 2px solid forestgreen;
+    border-radius: 10px;
+    max-width:865px;
+    max-height: 482px;
+    overflow:hidden;
+}
+
+.lheading
+{
+    text-align: center;
+    color: white;
+    background-color: green;
+    font-size: 33px;
+    padding: 7px;
+
+}
+.loginform
+{
+    width: auto;
+    float: right;
+    border:2px solid forestgreen;
+    height: 478px;
+    /*background-color: white;*/
+    border-radius: 10px;
+}
+.loginform table
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+}
+.loginform table td
+{
+    padding: 15px 20px 0px 20px;
+    font-size: 19px;
+    font-family: verdana;
+} 
+.loginform input[type="text"],.loginform input[type="password"]
+{
+    border: 2px solid green;
+}
+.loginform input[type="text"]:focus,.loginform input[type="password"]:focus
+{
+    border: none;
+    border-bottom: 2px forestgreen solid;
+    font-size: 20px;
+    color: white;
+    background-color: forestgreen;
+}
+.loginform input[type="text"]:hover,.loginform input[type="password"]:hover
+{
+    border: none;
+    border-bottom: 1px forestgreen solid;
+    font-size: 20px;
+    color: white;
+    background-color: forestgreen;
+}
+.loginform input[type="submit"]
+{
+    margin-top: 30px;
+    margin-left: 130px;
+    background-color: transparent;
+    color: forestgreen;
+    border: 1px solid forestgreen;
+    padding: 7px 10px 7px 10px;
+    border-radius: 6px;
+}
+.loginform input[type="submit"]:hover
+{
+    background-color: forestgreen;
+    color: white;
+}
+.txt
+{
+    text-align:center;
+}
+.loginform a
+{
+    color: forestgreen;
+}
+/*-------------------------------------Apply-------------------------------------------------*/
+
+.note h3
+{
+    text-align: center;
+    color: red;   
+}
+.star
+{
+    color: red;
+}
+.applyform
+{
+    padding: 10px 0px 10px 0px;
+    /*background-color: white;*/
+    width:auto;
+    font-family: verdana;
+}
+.applyfrom table
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+.applyform fieldset legend
+{
+    color: blue;
+    text-decoration: underline;
+    font-family: verdana;
+}
+.applyform fieldset 
+{
+    color: black;
+    font-size: 17px;
+    font-family: calibri;
+}
+.applyform table td
+{
+    padding:0px 12px 12px 12px;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.applyform table tr
+{
+    margin-top: 15px;
+}
+.applyform input,.applyform textarea,.applyform select
+{
+    border-radius:5px;
+}
+.applyform input:hover,.applyform textarea:hover,.applyform select:hover
+{
+    border: 1px blue solid;
+    background-color: azure; 
+    border-radius: 5px;
+} 
+.applyform input:focus,.applyform textarea:focus,.applyform select:focus
+{
+    border: 1px solid #07c;
+    box-shadow: 0 0 10px #07c;
+    background-color: azure;
+}
+.submitdata
+{
+    padding:20px 50px 50px 50px;
+    /*background-color: white;*/
+}
+.submitdata td
+{
+    padding-left: 50px;
+}
+.submitdata input[type=reset],.submitdata input[type=submit]
+{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 3px;
+    color: dodgerblue;
+    border: 1px dodgerblue solid;
+    background-color: transparent;
+    font-family: verdana;
+}
+.submitdata input[type=reset]:hover,.submitdata input[type=submit]:hover
+{
+     background-color: dodgerblue;
+    color: white;
+}
+
+
+/*==================================Projects=================================================*/
+
+.projects
+{
+    margin: 30px 0px 30px 0px;
+    width:auto;
+}
+.projects .prhead
+{
+    width:auto;
+    text-align: center;
+    font-size: 45px;
+    color: #1f004d;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bolder;
+}
+.projects table
+{
+   margin-left:auto;
+   margin-right:auto;
+}
+.projects table th,.projects table td
+{
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #751aff;
+    text-decoration: none;
+    color: white;
+}
+.projects table th a
+{
+    text-decoration: none;
+    color: white;
+}
+.projects table td
+{
+     background-color:#a366ff ;
+     font-weight: bold;
+}
+.projects .prototal td,.projects .prototal th
+{
+    color: red;
+    /*border: 4px solid red;*/
+    font-size: 25px;
+}
+
+
+
+/*=================================Reports====================================================*/
+.replist 
+{
+    margin: 20px 0px 20px 0px;
+    text-decoration: none;
+}
+.replist table
+{
+    width: auto;
+    border: 3px solid black;
+    /*border-collapse: separate;
+    empty-cells: hide;*/
+    background-color: #80d4ff;
+}
+.replist table th
+{
+    padding: 9px;
+    border: 1px solid black;
+    text-align: center;
+    background-color:#00aaff;
+    color: white; 
+    font-size: 20px;
+}
+.replist table td
+{
+    border: 1px solid black;
+/*  background-color: #80d4ff;*/
+    color: #7300e6;
+    font-size: 19px;
+    padding: 9px;
+    padding-left: 30px;
+}
+.replist table td:hover
+{
+    background-color: #0088cc;
+}
+.replist a
+{
+    font-size: 19px;
+    color: #7300e6;
+}
+.btnclass
+{
+    margin-top: 60px;
+    width:auto;
+}
+.btnclass #backbtn,.btnclass #homebtn,.btnclass #nextbtn 
+{
+    padding: 6px 10px 6px 10px;
+    background-color: transparent;
+    font-size: 20px;
+}
+.btnclass #backbtn
+{
+    /*margin-left: 150px;*/
+    margin-left:auto;
+    margin-right:auto;
+    color: #ff1a1a;
+    border: 1px solid #ff1a1a;
+    border-radius: 5px;
+} 
+.btnclass #homebtn
+{
+    /*margin-left: 400px;*/
+    margin-left:auto;
+    margin-right:auto;
+    color: #000080;
+    border: 1px solid #000080;
+    border-radius: 5px;
+    position:absolute;
+    left:40%;
+} 
+.btnclass #nextbtn
+{
+    /*margin-left: 390px;*/
+    margin-left:auto;
+    margin-right:auto;
+    color: #003300;
+    border: 1px solid #003300;
+    border-radius: 5px;
+    float:right;
+} 
+.btnclass #backbtn:hover
+{
+    color: white;
+    background-color: #e60000;
+} 
+.btnclass #homebtn:hover
+{
+    color: white;
+    background-color:#002266;
+} 
+.btnclass #nextbtn:hover
+{
+    color: white;
+    background-color:#004d00;
+} 
+
+.completereportbutton
+{
+    padding-top:20px;
+    margin-bottom:20px;
+    width:auto;
+}
+
+
+.completereportbutton input
+{
+    font-size: 20px;
+    color:white ;
+    background-color: #cc3300;
+    border: 1px solid #cc3300;
+    padding:3px 10px 3px 10px;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.completereportbutton .combtn,.completereportbutton .incombtn
+{
+    
+    background-color:dodgerblue;
+    border:1px solid dodgerblue;
+}
+
+.completereportbutton .incombtn
+{
+   float:right;
+}
+.completereportbutton input:hover
+{
+    background-color:#992600;
+    border: 1px solid #992600;
+}
+
+
+/*----------------------reports1,reports2---------------------------*/
+
+
+.repheading
+{
+    margin-top: 30px;
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+    color: #660033;
+}
+
+.table-responsive
+{
+    max-height: 410px;
+    margin-top: 30px;
+}
+.table-responsive table
+{
+    margin-top:10px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.table-responsive table tr :hover
+{
+    background-color:#66b3ff; 
+    
+}
+.table-responsive table th
+{
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #1a8cff;
+    color: black;
+    overflow: hidden;
+    
+    /*position: relative;*/
+    top: 0px;
+    position: sticky;
+    border: 1px solid  #000066;
+
+}
+
+.table-responsive table td
+{
+    border: 1px solid  #000066 !important;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color:#cce6ff;
+}
+.table-responsive table th a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.table-responsive h3
+{
+    text-align: center;
+}
+
+.villoption
+{
+    margin-top: 20px;
+}
+.villoption a
+{
+    color:white;
+    background-color:#4d4dff; 
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.villoption a:hover
+{
+    font-size: 23px;
+    text-decoration: none;
+    background-color: #3333ff;
+}
+
+.villoption .villinput
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #0000ff;
+    font-size: 20px;
+}
+.villoption .villinput input[type="text"]
+{
+    position:absolute;
+    left:15%;
+    border: 2px solid blue;
+    background-color: transparent;
+    padding-left: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-bottom:20px;
+}
+.villoption .villinput input[type="text"]:hover
+{
+    border:none;
+    background-color:#1a8cff;
+    border-radius: 5px;
+    color: white;
+}
+.villoption .villinput input[type="submit"]
+{
+    margin-top:20px;
+    position:absolute;
+    left:20%;
+    background-color:transparent;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.villoption .villinput input[type="submit"]:hover
+{
+    background-color:#4d4dff;
+    color: white;
+    border: 2px solid #4d4dff;
+}
+/*================================About=======================================================*/
+.glance
+{
+    margin-top: 80px;
+    font-size: 35px;
+    color: #0000ff;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+}
+.aboutdata
+{
+    margin:20px 20px 20px 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: verdana; 
+}
+
+
+/*=================================Signin====================================================*/
+
+.quote 
+{
+    padding-top: 40px;
+    text-align: center;
+    font-family: calibri;
+    font-size: 50px;
+    font-weight: bolder;
+    color: orangered;
+    text-shadow: 2px 2px green;
+}
+.quote:hover
+{
+    color: green;
+    text-shadow: 0 0 3px green;
+}
+
+.signupform
+{
+    width:auto;
+    /*background-color: white;*/
+    margin: 20px 0px 20px 0px;
+    border:1px solid orangered;
+    border-radius: 10px;
+    
+}
+.signupheading
+{
+    width:auto;
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    font-size: 33px;
+    padding: 7px;
+}
+.signupform table
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.signupform table td
+{
+    padding: 30px 20px 0px 20px;
+    font-size: 19px;
+    font-family: verdana;
+} 
+.signupform input[type="text"],.signupform input[type="password"]
+{
+    border: 2px solid orangered;
+}
+.signupform input[type="text"]:focus,.signupform input[type="password"]:focus
+{
+    border: none;
+    border-bottom: 2px orangered solid;
+    color: white;
+    background-color: orangered;
+    font-family: verdana;
+}
+.signupform input[type="text"]:hover,.signupform input[type="password"]:hover
+{
+    border: none;
+    color: white;
+    background-color: orangered;
+}
+.signupform input[type="submit"]
+{
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid orangered;
+    padding: 7px 10px 7px 10px;
+    border-radius: 6px;
+}
+.signupform input[type="submit"]:hover
+{
+    background-color: orangered;
+    color: white;
+}
+.txt
+{
+    margin-left: 50px;
+}
+.signupform a
+{
+    color: orangered;
+}
+
+
+
+/*code for bg image */
+/*.signupimg
+{
+    opacity: 0.7;
+    position: relative;
+    text-align: center;
+}
+.signupform
+{
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: calibri;
+    text-shadow: 1px 1px black;
+}.signupform input[type="text"],.signupform input[type="password"]
+{
+    border-radius:5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.signupform input[type="text"]:focus,.signupform input[type="password"]:focus
+{
+    background-color: white;
+   font-family: calibri;
+   outline: none;
+}
+::placeholder {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.signupform td
+{
+    padding: 15px;
+} 
+.loginshift
+{
+    position: absolute;
+    top: 400px;
+    left: 450px;
+    color:red;
+    font-weight: bold;
+} 
+.signupform input[type="submit"]
+{
+    background-color:crimson;
+    color: white;
+    border: 1px solid crimson;
+} 
+
+.loginshift a
+{
+     background-color:white;
+}*/
+

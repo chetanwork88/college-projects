@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+
+
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+
+
+</head>
+<body>
+	<div class="container-fluid" style="margin:200px 200px 200px 500px">
+
+
+		<div class="loginform">
+			<form action="submit" method="post" >{% csrf_token %}
+				<table>
+					<tr>
+						<td>Enter Namespace:</td>
+					</tr>
+					<tr>
+						<td><input type="text" class="form-control" name="namespace" required></td>
+					</tr>
+
+					<tr>
+						<td>Maximum Number Of Candidates:</td>
+					</tr>
+					<tr>
+						<td><input type="text" class="form-control" name="count" required></td>
+					</tr>
+<tr><td></td></tr>
+					<tr>
+						<td><input type="submit" value="Deploy"></td>
+
+					</tr>
+
+				</table>
+			</form>
+		</div>
+	</div>
+
+
+
+
+
+	</div>
+</body>
+</html>
