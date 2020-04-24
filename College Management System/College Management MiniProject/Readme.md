@@ -1,4 +1,4 @@
-            						COLLEGE MANAGEMENT SYSYTEM
+            				COLLEGE MANAGEMENT SYSYTEM
 
 S/W Requirement:
 
